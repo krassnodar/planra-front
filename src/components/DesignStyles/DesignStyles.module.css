@@ -1,0 +1,45 @@
+.designStylesContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.roundedImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.boldText {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.labelText {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.divider {
+  width: 1px;
+  height: 50px;
+  background-color: #ddd;
+}

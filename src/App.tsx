@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./i18n";
+import { useEffect, useState } from "react";
+import { RootStore } from "./store/RootStore";
+import { initState, RootStoreProvider } from "./store/initStore";
+import Router from "./router/Router";
 
 function App() {
+  const [rootStore, setRootStore] = useState<RootStore | null>(null);
+
+  useEffect(() => {
+    const init = () => {
+      const store = initState();
+      setRootStore(store);
+    };
+
+    init();
+  }, []);
+
+  if (rootStore === null) {
+    return null;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RootStoreProvider value={rootStore}>
+      <Router />
+    </RootStoreProvider>
   );
 }
 

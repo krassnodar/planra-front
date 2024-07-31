@@ -1,0 +1,39 @@
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #2a2a2a;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progressRing {
+  transform: rotate(-90deg);
+}
+
+.progressRingCircleBackground {
+  transition: stroke 0.35s;
+}
+
+.progressRingCircle {
+  transition: stroke-dashoffset 0.35s;
+  transform-origin: 50% 50%;
+}
+
+.progressText {
+  font-size: 1.5rem;
+  text-anchor: middle;
+  fill: #0c9488;
+  font-weight: bold;
+  dominant-baseline: central;
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+
+.loadingText {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #999;
+}

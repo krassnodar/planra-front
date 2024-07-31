@@ -1,0 +1,59 @@
+/* src/styles/ImageComparison.module.css */
+.comparison-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the images cover the container */
+  border-radius: 10px;
+}
+
+.original {
+  z-index: 1;
+}
+
+.modified {
+  z-index: 2;
+  clip: rect(
+    0,
+    auto,
+    auto,
+    50%
+  ); /* Start with the modified image hidden halfway */
+}
+
+.divider {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #000;
+  cursor: ew-resize;
+  z-index: 3;
+}
+
+.handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -5px;
+  width: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: ew-resize;
+  z-index: 4;
+}

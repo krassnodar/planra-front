@@ -1,0 +1,16 @@
+.languageSwitch {
+  background-color: transparent;
+  border: 1px solid #6c5ce7;
+  color: #6c5ce7;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+}
+
+.languageSwitch:hover {
+  background-color: #6c5ce7;
+  color: white;
+}
