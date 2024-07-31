@@ -11,6 +11,7 @@ import styles from "./ImageUpload.module.css";
 import { UploadWidgetResult } from "../../types/bytescale/bytescale";
 import { DesignAIRequest } from "../../services/DesignAIRequest";
 import ProcessingLoader from "../Loader/ProcessingLoader";
+import { URL } from "../../constants/apiConstanes";
 
 export const extractPercentage = (logs: string | undefined): number => {
   if (!logs) {
@@ -76,18 +77,15 @@ const ImageUpload: React.FC = () => {
     const file = files[0];
 
     try {
-      const startResponse = await fetch(
-        "http://194.58.126.253:5001/api/replicate",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(
-            new DesignAIRequest(file.fileUrl, selectedStyle.toLowerCase())
-          ),
-        }
-      );
+      const startResponse = await fetch(`${URL}/replicate`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(
+          new DesignAIRequest(file.fileUrl, selectedStyle.toLowerCase())
+        ),
+      });
 
       const jsonStartResponse = await startResponse.json();
 
@@ -98,9 +96,7 @@ const ImageUpload: React.FC = () => {
       let restoredImages = null;
       while (!restoredImages) {
         await new Promise((resolve) => setTimeout(resolve, 1000));
-        const finalResponse = await fetch(
-          `http://194.58.126.253:5001/api/replicate/${predictionId}`
-        );
+        const finalResponse = await fetch(`${URL}/replicate/${predictionId}`);
         const jsonFinalResponse = await finalResponse.json();
         console.log("[INFO]: ответ обработки от сервера  ", jsonFinalResponse);
 
