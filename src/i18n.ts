@@ -27,16 +27,24 @@ const resources = {
       register: "Register",
       feature1Title: "Beautiful Redesign and Stunning Transformations",
       feature1Description:
-        "Want to make your home look stunning inside and out? Our Beautiful Redesign interior ai feature can do just that. It helps you change up your place in different styles, making it look amazing. Redesign any type of interior, exteriors or gardens.",
+        "Want to make your home look stunning inside and out? Our Beautiful Redesign interior ai feature can do just that. It helps you change up your place in different styles, making it sophisticated, modern and architectural. Redesign any type of interior, exteriors or gardens.",
       feature2Title: "Creative Redesign for Interiors and Exteriors",
       feature2Description:
-        "Give the AI the freedom to be artistic with Creative Redesign. It can make more exciting changes to your house or interiors, creating a one-of-a-kind design that really stands out. Let AI rearrange furniture or redesign your house and give it a different perspective.",
+        "Give the AI the freedom to be artistic with Creative Redesign. It can make more exciting changes to your house or interiors, creating a one-of-a-kind design that really stands out. Let AI rearrange furniture or redesign your house and give it a different perspective. Get to know the season's top trends and their stylish alternatives.",
       feature3Title: "Fill The Room with Furniture and Decorations",
       feature3Description:
         "Ever wondered how your place would look with the furniture you want? Fill The Room lets the AI furnish any room type. You can try out different setups until you find the perfect one. Decorate empty room with furniture with HomeDesignsAI. Works for under construction or empty spaces.",
       feature4Title: "Decor Staging and Furniture Showcase",
       feature4Description:
-        "Show off your furniture and decor in lots of styles with Decor Staging. You can see how your stuff would look in all kinds of different designs, like a pro decorator. Showcase any piece of furniture or other objects.",
+        "Show off your furniture and decor in lots of styles with Decor Staging. You can see how your stuff would look in all kinds of different designs, like a pro decorator. Showcase any piece of furniture or other objects. Taking into account the basic principles of past seasons - convenience, eco-friendliness and warmth, today's design trends exceed all expectations and are ready to surprise you.",
+      feature5Title: "Interior of the Future:",
+      feature5Description: "How Artificial Intelligence is Changing Space Design With the development of technology, artificial intelligence (AI) is penetrating all areas of our lives, including interior design. With the help of algorithms that analyze existing styles, user preferences, and functional requirements, AI is able to create unique solutions for residential and commercial spaces. Let's take a look at how artificial intelligence can change the interior and what opportunities it offers.",
+      feature6Title: "1. Interior personalization",
+      feature6Description: "One of the main advantages of using AI in interior design is the ability to deeply personalize. AI-based systems can analyze data about users' preferences, lifestyle, and even their emotional perception of space. This allows you to create an interior that reflects the individuality of the residents. For example, if someone prefers minimalism with bright accents, AI can suggest a light palette with a few bright elements. And for lovers of coziness and warmth, the algorithm can generate an atmosphere using natural materials and warm tones.",
+      feature7Title: "2. Effective space planning",
+      feature7Description: "Modern algorithms are able to calculate optimal furniture arrangement options taking into account the room size, light sources, and even climate characteristics. AI can analyze how various decorative elements will interact with each other, creating a harmonious and functional space. For example, AI can offer several living room layout options to maximize natural light, improve air circulation, and create a cozy atmosphere. Such solutions are not only aesthetically pleasing, but also increase the comfort of living.",
+      feature8Title: "3. Sustainability and eco-friendly materials",
+      feature8Description:"Modern consumers are increasingly paying attention to ecology. Artificial intelligence can help choose eco-friendly materials and technologies, reduce the carbon footprint and create an interior focused on sustainable development. Algorithms can analyze supplier transactions and offer options for using recycled or sustainably mined materials. In addition, AI can control smart homes, optimizing energy consumption: adjusting lighting, heating and air conditioning systems in accordance with the lifestyle of residents. With the help of AI-based virtual reality (VR) technologies, designers can visualize the created solutions in real time. This allows clients to “walk” through the future interior before work begins. The ability to interact with the project helps make informed decisions and make changes before they are implemented.",
       beginFreeTrial: "Begin your free trial",
       trialDescription:
         "To begin your free 7-day trial, we request your credit card details. It is a simple way for us to verify that you are a genuine person and helps maintain the quality of our service for all. Feel free to cancel at any time during the trial without charges.",
@@ -88,16 +96,25 @@ const resources = {
       register: "Зарегистрироваться",
       feature1Title: "Прекрасный редизайн и потрясающие преобразования",
       feature1Description:
-        "Хотите сделать свой дом потрясающим изнутри и снаружи? Наша функция Beautiful Redesign interior ai может сделать именно это. Она помогает изменить ваше пространство в разных стилях, делая его удивительным. Редизайн любых типов интерьера, экстерьера или садов.",
+        "Хотите сделать свой дом потрясающим изнутри и снаружи? Наша функция Beautiful Redesign interior ai может сделать именно это. Она помогает изменить ваше пространство в разных стилях, сделав его изысканным, современным и архитектурным. Редизайн любых типов интерьера, экстерьера или садов.",
       feature2Title: "Креативный редизайн интерьеров и экстерьеров",
       feature2Description:
-        "Дайте ИИ свободу быть творческим с Creative Redesign. Он может внести более захватывающие изменения в ваш дом или интерьер, создавая уникальный дизайн, который действительно выделяется. Позвольте ИИ переставить мебель или переделать ваш дом и придать ему другую перспективу.",
+        "Дайте ИИ свободу быть творческим с Creative Redesign. Он может внести более захватывающие изменения в ваш дом или интерьер, создавая уникальный дизайн, который действительно выделяется. Позвольте ИИ переставить мебель или переделать ваш дом и придать ему другую перспективу. Познакомьтесь с главными трендами сезона и их стильными альтернативами.",
       feature3Title: "Наполните комнату мебелью и декором",
       feature3Description:
         "Когда-нибудь задумывались, как бы выглядело ваше место с желаемой мебелью? Fill The Room позволяет ИИ обставить любой тип комнаты. Вы можете попробовать разные варианты, пока не найдете идеальный. Украсьте пустую комнату мебелью с HomeDesignsAI. Работает для строящихся или пустых пространств.",
       feature4Title: "Постановка декора и выставка мебели",
       feature4Description:
-        "Продемонстрируйте свою мебель и декор во многих стилях с Decor Staging. Вы можете увидеть, как ваши вещи будут выглядеть во всевозможных разных дизайнах, как профессиональный декоратор. Демонстрируйте любую мебель или другие предметы.",
+        "Продемонстрируйте свою мебель и декор во многих стилях с Decor Staging. Вы можете увидеть, как ваши вещи будут выглядеть во всевозможных разных дизайнах, как профессиональный декоратор. Демонстрируйте любую мебель или другие предметы. С учетом основных принципов прошлых сезонов - удобства, экологичности и тепла, современные тенденции в дизайне превосходят все ожидания и готовы удивить вас.",
+      feature5Title: "Интерьер будущего:",
+      feature5Description:
+        "Как искусственный интеллект меняет проектирование пространстваС развитием технологий искусственный интеллект (ИИ) проникает во все сферы нашей жизни, включая дизайн интерьеров. С помощью алгоритмов, которые анализируют существующие стили, предпочтения пользователей и функциональные требования, ИИ способен создавать уникальные решения для жилых и коммерческих пространств. Давайте рассмотрим, каким образом искусственный интеллект может изменить интерьер, и какие возможности он предлагает.",
+      feature6Title: "1. Персонализация интерьера",
+      feature6Description: "Одним из главных преимуществ использования ИИ в дизайне интерьеров является способность к глубокой персонализации. Системы, основанные на ИИ, могут анализировать данные о предпочтениях пользователей, их образе жизни и даже эмоциональном восприятии пространства. Это позволяет создавать интерьер, который отражает индивидуальность жильцов. Например, если кто-то предпочитает минимализм с яркими акцентами, ИИ может предложить светлую палитру с несколькими яркими элементами. А для любителей уюта и тепла алгоритм может сгенерировать атмосферу с использованием натуральных материалов и теплых тонов.",
+      feature7Title: "2. Эффективная планировка пространства",
+      feature7Description: "Современные алгоритмы способны рассчитывать оптимальные варианты расстановки мебели с учетом размеров помещения, источников света и даже особенностей климата. ИИ может анализировать, как различные элементы декора будут взаимодействовать друг с другом, создавая гармоничное и функциональное пространство. Так, например, ИИ может предложить несколько вариантов планировки гостиной, чтобы максимизировать естественное освещение, улучшить циркуляцию воздуха и создать уютную атмосферу. Такие решения не только эстетичны, но и повышают комфорт проживания.",
+      feature8Title: "3. Устойчивое развитие и экологичные материалы",
+      feature8Description: "Современные потребители все больше обращают внимание на экологию. Искусственный интеллект может помочь выбрать экологичные материалы и технологии, снизить углеродный след и создать интерьер, ориентированный на устойчивое развитие. Алгоритмы могут анализировать сделки поставщиков и предлагать варианты использования переработанных или устойчиво добытых материалов. Кроме того, ИИ может управлять умными домами, оптимизируя потребление энергии: настраивать освещение, системы отопления и кондиционирования в соответствии с режимом жизни жильцов.С помощью технологий виртуальной реальности (VR) на основе ИИ проектировщики могут визуализировать созданные решения в реальном времени. Это позволяет клиентам «прогуляться» по будущему интерьеру до начала работ. Возможность интерактивного взаимодействия с проектом помогает принимать обоснованные решения и вносить изменения до их реализации.",
     },
     beginFreeTrial: "Начните бесплатный пробный период",
     trialDescription:

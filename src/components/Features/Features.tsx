@@ -35,8 +35,32 @@ const Features: React.FC = () => {
     {
       title: t("feature4Title"),
       description: t("feature4Description"),
-      originalImage: require("../../assets/original3.png"),
-      modifiedImage: require("../../assets/modified3.png"),
+      originalImage: require("../../assets/original4.png"),
+      modifiedImage: require("../../assets/modified4.png"),
+    },
+    {
+      title: t("feature5Title"),
+      description: t("feature5Description"),
+      originalImage: require("../../assets/original5.png"),
+      modifiedImage: require("../../assets/modified5.png"),
+    },
+    {
+      title: t("feature6Title"),
+      description: t("feature6Description"),
+      originalImage: require("../../assets/original6.png"),
+      modifiedImage: require("../../assets/modified6.png"),
+    },
+    {
+      title: t("feature7Title"),
+      description: t("feature7Description"),
+      originalImage: require("../../assets/original7.png"),
+      modifiedImage: require("../../assets/modified7.png"),
+    },
+    {
+      title: t("feature8Title"),
+      description: t("feature8Description"),
+      originalImage: require("../../assets/original8.png"),
+      modifiedImage: require("../../assets/modified8.png"),
     },
   ];
 
