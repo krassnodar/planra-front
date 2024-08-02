@@ -1,0 +1,126 @@
+.pricingContainer {
+  padding: 4rem 0;
+  background-color: #f6f3f9;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #7b68ee;
+  margin-bottom: 3rem;
+}
+
+.plansContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.planCard {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.popularPlan {
+  border: 2px solid #7b68ee;
+}
+
+.popularTag {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7b68ee;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.planIcon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.planTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.planPrice {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.period {
+  font-size: 1rem;
+  color: #666;
+}
+
+.planSubtitle {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.featuresList {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.featuresList li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.checkmark {
+  color: #7b68ee;
+  margin-right: 0.5rem;
+}
+
+.highlightedFeature {
+  font-weight: bold;
+}
+
+.accessButton {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #7b68ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accessButton:hover {
+  background-color: #6a5acd;
+}
+
+.secureCheckout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.secureCheckout img {
+  height: 20px;
+  margin-right: 0.5rem;
+}

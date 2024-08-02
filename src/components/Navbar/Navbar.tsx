@@ -7,6 +7,14 @@ import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
 const Navbar: React.FC = () => {
   const { t } = useTranslation();
 
+  const scrollToPricing = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    const pricingSection = document.getElementById("pricing");
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>Plan RA</div>
@@ -21,6 +29,11 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <Link to="/contact">{t("Contact")}</Link>
+          </li>
+          <li>
+            <a href="#pricing" onClick={scrollToPricing}>
+              {t("Pricing")}
+            </a>
           </li>
         </ul>
         <LanguageSwitch />
